@@ -30,7 +30,7 @@ int main(void)
 
     // 結果表示
     printf("x = %lf\n", x);
-    printf("%lf\n", a * pow(x, 3) + b * pow(x, 2) + c * x * d);
+    printf("%lf\n", a * pow(x, 3) + b * pow(x, 2) + c * x * d); // ゼロにならなければ発散している
 
     return 0;
 }
