@@ -57,7 +57,7 @@ void calc_mat(double *x)
     //MatPrint(Fmat, "%4.4lf ");
 
     // ヤコビアン行列が０なら計算終了
-    if (Bmat->dat[0] == 0 && Bmat->dat[1] && Bmat->dat[2] && Bmat->dat[3])
+    if (Bmat->dat[0] == 0 && Bmat->dat[1] == 0 && Bmat->dat[2] == 0 && Bmat->dat[3] == 0)
         return;
 
     // 逆行列の計算
